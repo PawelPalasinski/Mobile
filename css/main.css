@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap");
 .button {
   display: flex;
   align-items: center;
@@ -148,5 +149,45 @@
   .nav-mobile__link a:hover, .nav-mobile__link a:focus {
     color: #D41443;
   }
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 308px;
+  width: 280px;
+  background-color: #fafafa;
+  margin: 0 auto;
+}
+
+.box svg {
+  position: absolute;
+  padding: 0 145px 240px 0;
+  z-index: 0;
+}
+
+.box__lines {
+  width: 180px;
+  background: repeating-linear-gradient(#fafafa00, #fafafa00 31px, #E1E1E1 32px);
+  background-color: #fafafa00;
+  z-index: 1;
+}
+
+.box__lines .text {
+  display: flex;
+  align-items: flex-end;
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 32px;
+  text-align: center;
+  align-items: flex-end;
+}
+
+.box__lines .text p {
+  width: 157px;
+  margin: 0 0 7px 0;
+  color: #000;
 }
 /*# sourceMappingURL=main.css.map */
